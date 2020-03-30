@@ -1,0 +1,12 @@
+March 30, 2020
+Worked thorugh Sections 1 and 2 of the course. These sections analysis vs analytics, different types of analytics and how they relate to business and data analytics, and when these different tools come into play when solving problems.o
+
+Strictly speaking, analysis is a reflection on things that have happened, while analytics looks ahead for future projections base on the analysis data. Colloquially, however, "analytics" has become the umbrella term for both.
+
+The separation of business analysis tools was rather interesting. It's broken up by analytics type under the "advanced analytics" umbrella, as well as using a time axis of past, present, and future.
+
+Business Analytics is at the bottom of the stack, focusing primarily on business case studies in the past and qualitative analytics in the future. Then comes Data Science, which encompases preliminary data reporting in the past, and sales forecasting in the future. Data Analytics is largely represented by Data Science, but has a more pure form when looking strictly at data input and output to reach an improved setting.
+
+The final three are Business Intelligence, Machine Learning, and AI. Business Intelligence relies on past and present analytics, with mechanisms like reporting with visuals and creating dashboards. This reminds me of something to prepare for a board meeting. It also overlaps with Machine Learning to create real-time dashboards.
+
+Machine Learning is largely encompased with Data Science, and can be used to help wtih client retention and fraud prevention. Then this is tied in to AI, which primiarly uses Machine Learning to perform more advanced analytics.
