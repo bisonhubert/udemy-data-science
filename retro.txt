@@ -1,5 +1,17 @@
+March 31, 2020
+Worked through Sections 3 - 5 which primarily walked through the data science PDF. Moving from past to present on a timeline, we went over traditional and big data, when to apply it, why it's needed, techniques involved, where it's commonly found, tools used, and the job titles of those primarily focused on these steps.
+
+Went over KPIs or "key performance indicators" as part of business intelligence techniques. Was first introduced to these at Brava. It's the process of filtering metrics that apply to business goals. This leads to BI reports and dashboards.
+
+In the traditional methods bucket we took a look at linear regression and how observations can be charted and formulas can be created using y = bx. Another traditional methods is logistic regression, which is a binary representation. A third technique is cluster analysis, used when groupings are identifiable within a charted dataset. Finally, time-series data (think hourly, monthly, daily energy usage) illustrates behavior of usage over time.
+
+In machine learning, deep learning is described as both supervised and unsupervised methods. One supervised method use case is fraud detection in financial industries. Think about traveling to a new country, and your credit card getting frozen because it's triggered some alert that the activity is outside the ML supervised model. Letting the credit card company know you are traveling opens up this model to interpret the activity as normal or expected.
+
+As a whole, this course is very theory and video based. The quizzes are not terribly comprehensive. I'm looking forward to actually working through exercises.
+
+
 March 30, 2020
-Worked thorugh Sections 1 and 2 of the course. These sections analysis vs analytics, different types of analytics and how they relate to business and data analytics, and when these different tools come into play when solving problems.o
+Worked through Sections 1 and 2 of the course. These sections analysis vs analytics, different types of analytics and how they relate to business and data analytics, and when these different tools come into play when solving problems.o
 
 Strictly speaking, analysis is a reflection on things that have happened, while analytics looks ahead for future projections base on the analysis data. Colloquially, however, "analytics" has become the umbrella term for both.
 
