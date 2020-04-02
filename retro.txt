@@ -1,3 +1,7 @@
+April 1, 2020
+Topics today wrap up P1, the overview of the field of data science. For technology, Python and R are the big two programming languages that cover the different types of data science. Matlab (paid) and SQL are also two used across the board.
+
+
 March 31, 2020
 Worked through Sections 3 - 5 which primarily walked through the data science PDF. Moving from past to present on a timeline, we went over traditional and big data, when to apply it, why it's needed, techniques involved, where it's commonly found, tools used, and the job titles of those primarily focused on these steps.
 
