@@ -1,3 +1,12 @@
+April 7, 2020
+April 7, 2020
+Basic principles of probability in data science:
+- Trial vs experiment. A trial is an individual test with a recorded outcome. An experiment is a series of trials.
+- How to calculate probability as an integer, with 0 being 0% and 1 being 100%.
+- How to calculate frequency within probability. Used a 6x6 grid to reference two dice and frequency of die sums.
+- Events and their compliments. How rolling a 5 on a 6-sided die has a probability of 0.167, whereas its compliment, 5' or not rolling a 5, has a probability of 0.83.
+
+
 April 1, 2020
 Topics today wrap up P1, the overview of the field of data science. For technology, Python and R are the big two programming languages that cover the different types of data science. Matlab (paid) and SQL are also two used across the board.
 
