@@ -1,4 +1,60 @@
-April 7, 2020
+April 16, 2020
+Section 10: Probability - Combinatorics
+
+- Combinatorics deals with combinations of objects using a specified, finite set.
+- Restrictions to the set can include repetition or order.
+- Three parts of combinatorics which can be used to derive number of favorable outcomes or number of all elements in a sample space:
+  - Permutations || P = n!
+  - Variations || (rep) V = n ^ p || (w/o rep) V = n! / (n - p)!
+  - Combinations || C = V / P || C = n! / p! (n - p)!
+- Permutations: One of the most commonly used part of combinatorics || n!
+  - Is the number of different possible ways we can arrange a set of elements
+  - n -> n - 1 -> n - 2 ... 1 || formula: n!
+  - n!
+    - outliers: negative numbers do not have a factorial (must be natural), and 0! == 1
+    - properties:
+      - n! = n * (n-1)!
+      - (n+1)! = n! * (n+1)
+      - if n > k => 7! / 4! == 7 x 6 x 5 == 210
+- Variations: The total number of ways we can pick and arrange some elements of a given set
+    - example w/ repetition || V = n ^ p
+      - forcing the lock open in RE2 used combinatorics to work through all variations until finding the opener
+      - 3 letter lock, with 10 letters per slot, variations = 10^3 or 1000 variations
+      - formula:
+        - n = number of things to choose from (like letters)
+        - p = number of slots to fill with choices
+        - V = n^p
+    - example w/o repetition || n! / (n - p)!
+      - 5 runners to fill 4 relay spots
+      - first spot has 5 options, second has 4, third has 3, fourth has 2
+      - p = slots to fill
+      - n = total number of choices
+      - V = n! / (n - p)!
+- Combinations: The number of ways we can pick certain elements of a set || C = (n! / (n - p)!) / n!
+  - example: pick 3 people to represent your company at some event out of 10 total employees
+  - formula:
+    - C = V / P
+    - C = n! / p! (n - p)!
+    - C = 10! / 3! (10 - 3)!
+    - C = (10 * 9 * 8) / (3 * 2 * 1) == 720 / 6 == 120
+  - example: pick 4 people out of pool of 10
+    - C = 10! / (4! (10 - 4)!) == (10 * 9 * 8 * 7) / (4 * 3 * 2 * 1) == 5040 / 24 == 210
+- Symmetry of Combinations
+  - example: you have 6 fruits, basket only fits 4
+    - can pick 4 fruits to fit into the basket, OR
+    - can pick 2 fruits to leave out
+  - example: picking people to represent company
+    - selection of 3 people to pick has the same combinations as picking 7 people
+    - C = 10! / (7! (10 - 7)!) == 10! / 3! == (10 * 9 * 8) / (3 * 2 * 1) == 120
+  
+- VS
+  - use variations over permutations when we are not arranging all elements in the sample space
+  - variations don't take into account double counting elements, but combinations does. the number of variations of the relay would differ from the combinations because we could be rearranging the order (combinations) instead of having it be static once selected (variations)
+  - * all the different permutations of a single combination are different variations
+    - picking dave, alex, and steve is one variation, while picking alex, dave, and steve is another. but the combinatino of both is the same. and the total number of permutations is 6. so 1 combination, 6 variations, and 6 permutations
+  - picking more elements leads to having fewer combinations
+
+
 April 7, 2020
 Basic principles of probability in data science:
 - Trial vs experiment. A trial is an individual test with a recorded outcome. An experiment is a series of trials.
