@@ -1,3 +1,67 @@
+April 21, 2020
+Section 11: Probability - Bayesian Inference
+
+- Overview: Describing events and how they interact with one another
+  - An event leads to a set of outcomes
+  - Ex1 (numerical): The event of a 6-sided die roll being even has the favorable outcomes, or set: 2, 4, and 6
+  - Ex2 (non-numerical): Being a member of the EU. France and Germany are values in this set. USA and Japan are not
+  - Expressing sets and values: Sets use upper-case letters, values are lower. So X is the set, x and x and x are values in it
+  - Null set: an empty set
+- Ways Sets Can Interact
+  - Visual aids and graphs help identify these interactions
+  - Events as circles, values as circles contained in the event circle
+  - Event circles have 3 interaction varieties. They can never touch, intersect, or completely overlap
+  - Mutually exclusive events: The two events can never happen simultaneously. If Event A is occuring, event B is not occuring
+    - Ex1: This follows the rule that the same person cannot exist in two places at once. The event being taking up a place at a time.
+    - Ex2: Getting one card that is a diamond. This means getting a heart, spade, or club did not happen.
+  - Intersecting Events: Two events can occur at the same time.
+    - Ex: Getting a diamond and getting a queen. The intersection point is the queen of diamonds. The part of Event A that is not part of the intersection is all other diamonds. The part of Event B that is not part of the intersection is all other queens.
+  - Overlapping events: One event can only ever occur if the other one does as well
+    - Ex: Drawing a red card and that card being a diamond. The diamond draw will only ever occur if a red card is drawn. If Event A is the red draw, any event that doesn't swallow Event B is drawing a heart.
+    - If an outcome is NOT part of a SET, it CANNOT be part of any of its SUBSETS (diamond draw)
+    - An outcome NOT being part of SOME subset does NOT EXCLUDE it from the entirety of the greater set (heart draw)
+- Intersection of Sets || A Ω B = ø || A Ω B = QD || A Ω B = B
+  - As described above, this is all the outcomes that are favourable for both A and B simultaneously
+  - Intersection of ALL hearts and ALL diamonds is the EMPTY SET / NULL SET || A Ω B = ø
+  - Intersection of a diamond and a queen is the queen of diamonds || A Ω B = QD
+  - Intersection of a red card and a diamond would be ALL DIAMONDS || A Ω B = B
+- Union of Sets || A U B
+  - A combination of all outcomes preferred for either A or B
+  - Ex: If USA is a union, a state is a set, and a citizen of that state is an element of both the union and set 
+  - Null set intersection: A U B = A + B
+    - No element is in both sets simultaneously, so we don't have to worry about double-counting
+  - Intersection: A U B = A + B - A Ω B 
+    - Can't double-count the intersect
+  - Complete overlap: A U B = B + A - B or A
+- Mutually Exclusive Sets
+  - Sets which are not allowed to have any overlapping elements
+  - Circles never intersect, so intersection is null set
+  - Union or A U B = A + B
+  - Sets have compliments: All values that are part of the sample space, but not part of the set
+  - Compliment of all odd numbers is all even numbers
+  - Compliments are ALWAYS mutually exclusive
+  - NOT all mutually exclusive sets are compliments (think even numbers vs numbers ending in 5)
+- Dependence and Independence of Sets
+  - Independent events: theoretical probability remains unaffected by other events. Like flipping a coin, you always have 50% chance of heads or tails.
+  - Dependent events: probabilities vary as conditions change. Like drawing a spade or a queen. Spade = 1/13 vs queen = 1/4
+  - Conditional Probability: Probability of A given that B has occured || P(A|B)
+    - Ex1: Probability of drwaing the Queen of Spades if we know the card is a SPADE is 1/13
+    - Ex2: Probability of drwaing the Queen of Spades if we know the card is a QUEEN is 1/4
+- The Conditional Probability Formula || P(A|B)
+  - The likelihood of an event occuring, assuming a different one has already happened
+  - Ex1: Two Coin Flips
+    - P(A) = P(A|B)
+    - If any two events are independent, P(A Ω B) = P(A) x P(B)
+  - Ex2: Queen of Spades
+    - A -> QS, B -> S, C -> Q
+    - A -> QS == P(A) == 1/52
+    - B -> S == P(A|B) == 1/13 || Dependent on A
+    - C -> Q == P(A|B) == 1/4 || Dependent on A
+    - P(A|B) = P(A Ω B) / P(B) ONLY IF B > 0
+- The Additive Rule
+  - P(A U B) = P(A) + P(B) - P(A Ω B) 
+
+
 April 16, 2020
 Section 10: Probability - Combinatorics
 
