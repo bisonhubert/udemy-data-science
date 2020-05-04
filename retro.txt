@@ -1,3 +1,38 @@
+April 22, 2020
+Section 12: Probability - Distributions
+
+- Fundamentals Of
+  - Distribution: The possible values a variable can take and how frequently they occur
+    - Two characteristics: mean (µ) and variance (σ^2). There is a constant relationship between the two.
+    - Mean
+      - average value
+      - symbol: µ "mu" (typed by holding option and typing "m")
+    - Variance
+      - how spread out the data is. The more dispersed, the higher the variance
+      - symbol: σ^2 "sigma squared"
+    - Relationship
+      - "sigma squared = the expected value of Y - mu squared"
+      - σ^2 = E((Y - µ)^2) == E(Y^2) - µ^2
+  - Probabilities: Measure the likelihood of an outcome (with finite number of possible outcomes)
+  - Notation
+    - Probability function: p(y)
+      - Y -> the actual outcome of an event
+      - y -> one of the possible outcomes
+      - P (Y = y) -> one way to denote the likelihood of a particular outcome
+      - P (y) -> shorthand for above
+      - Ex: Y is the number of red marbles in a bag. y -> 5 represents five marbles from the bag. Probability of getting exactly 5 red marbles is P(Y=5) == P(5)
+    - sample mean vs sample variance
+    - a constant relationship 
+- Types of Probability Distributions
+- Discrete Distributions
+- DD: The Uniform Distribution
+- DD: The Bernoulli Distribution
+- DD: The Binomial Distribution
+- DD: The Poisson Distrubution
+- Continuous Distributions
+
+
+
 April 21, 2020
 Section 11: Probability - Bayesian Inference
 
